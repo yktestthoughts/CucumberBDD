@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.033 sec <<< FAILURE!
+: To verfy whether the place has been added successfully added using ADD PLACE API #1(PLACE API)  Time elapsed: 6.362 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[WC HOUSE]> but was:<[YK ROAD]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefination.StepDefination.verfiy_place_id_created_maps_to_using(StepDefination.java:76)
+	at ?.Verfiy place id created maps to "WC HOUSE" using "GetPlaceAPI"(file:///C:/Users/yfory/eclipse-workspace/PlaceAPI/src/test/java/features/AddPlace.feature:11)
+
+: To verfy whether the place has been added successfully added using ADD PLACE API #2(PLACE API)  Time elapsed: 2.746 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[BC HOUSE]> but was:<[YK ROAD]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefination.StepDefination.verfiy_place_id_created_maps_to_using(StepDefination.java:76)
+	at ?.Verfiy place id created maps to "BC HOUSE" using "GetPlaceAPI"(file:///C:/Users/yfory/eclipse-workspace/PlaceAPI/src/test/java/features/AddPlace.feature:11)
+
